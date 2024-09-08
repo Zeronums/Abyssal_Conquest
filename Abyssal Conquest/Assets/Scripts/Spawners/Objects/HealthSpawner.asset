@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889a28a186de57841b749552b18c3815, type: 3}
+  m_Name: HealthSpawner
+  m_EditorClassIdentifier: 
+  itemSpawn: {fileID: 4089100961122550908, guid: 29cb2920aae0333408a337522d1a71bd, type: 3}
+  minSpawn: 2
+  maxSpawn: 4
