@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 168539474}
   m_Layer: 0
   m_Name: HTWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 247655795}
   m_Layer: 0
   m_Name: LVWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -739,7 +739,7 @@ GameObject:
   - component: {fileID: 883259194}
   m_Layer: 0
   m_Name: RVWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -980,10 +980,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 738179466}
   spawnerData:
-  - name: EnemyChaser
+  - name: GoblinSp
     spawnerData: {fileID: 11400000, guid: 78403885fb00dd6409ab29bfb1ed193e, type: 2}
-  - name: EnemyChaser
+  - name: CyclopSp
     spawnerData: {fileID: 11400000, guid: 7359f7609c9139348b5a416e709409b3, type: 2}
+  - name: MageSp
+    spawnerData: {fileID: 11400000, guid: 9de0f6e3e07034d4da2d6fc44b71c8fc, type: 2}
   - name: Stone1
     spawnerData: {fileID: 11400000, guid: b974ccbff683bdf419b3896ea033df8a, type: 2}
   - name: Stone2
@@ -1149,7 +1151,7 @@ GameObject:
   - component: {fileID: 1666449209}
   m_Layer: 0
   m_Name: HBWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

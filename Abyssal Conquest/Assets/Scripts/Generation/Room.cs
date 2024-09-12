@@ -13,7 +13,7 @@ public class Room : MonoBehaviour
 
     public List<Door> doorsList= new();
     private bool updatedDoors = false;
-    private List<EnemyChase> enemiesInRoom = new();
+    private List<EnemyAI> enemiesInRoom = new();
     private bool hasLockedDoors = false;
     public Room(int x, int y){
         X = x;
@@ -51,8 +51,8 @@ public class Room : MonoBehaviour
             }
         }
 
-        enemiesInRoom = new List<EnemyChase>();
-        enemiesInRoom.AddRange(GetComponentsInChildren<EnemyChase>());  // ???? error
+        enemiesInRoom = new List<EnemyAI>();
+        enemiesInRoom.AddRange(GetComponentsInChildren<EnemyAI>());  // ???? error
         //RoomController.instance.RegRoom(this);
 
         
@@ -82,7 +82,7 @@ public class Room : MonoBehaviour
         }*/
     }
 
-    public void OnEnemyDefeated(EnemyChase enemy)
+    public void OnEnemyDefeated(EnemyAI enemy)
     {
         if (enemiesInRoom.Contains(enemy))
         {

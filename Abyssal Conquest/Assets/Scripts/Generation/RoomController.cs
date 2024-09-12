@@ -175,10 +175,10 @@ public class RoomController : MonoBehaviour
         {
             if (currentRoom != room)
             {
-                EnemyChase[] enemies = room.GetComponentsInChildren<EnemyChase>();
+                EnemyAI[] enemies = room.GetComponentsInChildren<EnemyAI>();
                 if (enemies != null)
                 {
-                    foreach (EnemyChase enemy in enemies)
+                    foreach (EnemyAI enemy in enemies)
                     {
                         enemy.notPresent = true;
                     }
@@ -187,14 +187,14 @@ public class RoomController : MonoBehaviour
             }
             else
             {
-                EnemyChase[] enemies = room.GetComponentsInChildren<EnemyChase>();
+                EnemyAI[] enemies = room.GetComponentsInChildren<EnemyAI>();
                 BossAI[] bosses = room.GetComponentsInChildren<BossAI>();
                 bool enemiesPresent = enemies.Length > 0;
                 bool bossesPresent = bosses.Length > 0;
                 
                 if (enemiesPresent || bossesPresent)
                 {
-                    foreach (EnemyChase enemy in enemies)
+                    foreach (EnemyAI enemy in enemies)
                     {
                         enemy.notPresent = false;
                     }

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8935334426154639877}
   - component: {fileID: 6482611914907674890}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Cyclop
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,11 +101,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7995845210598458303, guid: 11dbb7ee835a2454eaa37401646e6377, type: 3}
+  projectile1: {fileID: 0}
   speed: 2.5
-  distance: 4.5
+  distance: 5
+  attRange: 0
+  fireRate: 0
   currentState: 0
+  enemyType: 0
   rb: {fileID: 8935334426154639877}
   notPresent: 0
+  canAttack: 1
 --- !u!114 &-3386730830530807515
 MonoBehaviour:
   m_ObjectHideFlags: 0

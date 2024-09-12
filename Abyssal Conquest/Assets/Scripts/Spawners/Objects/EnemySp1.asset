@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 889a28a186de57841b749552b18c3815, type: 3}
-  m_Name: RandEnemy
+  m_Name: EnemySp1
   m_EditorClassIdentifier: 
   itemSpawn: {fileID: 4033866541551682291, guid: 404df4e8496ab284b9b09155df1f1dcb, type: 3}
   minSpawn: 0

@@ -18,9 +18,9 @@ public class EnemyStats : MonoBehaviour
     }
     
     private void Dead(){
-        if (TryGetComponent<EnemyChase>(out var enemyChase))
+        if (TryGetComponent<EnemyAI>(out var enemyAI))
         {
-            enemyChase.currentState = State.Dead;
+            enemyAI.currentState = State.Dead;
         }
 
         if (TryGetComponent<BossAI>(out var bossAI))
