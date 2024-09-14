@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e83c14771b42d3d4cba53c562b05c069, type: 3}
   m_Name: DunGenData
   m_EditorClassIdentifier: 
-  numCrawl: 2
+  numCrawl: 3
   minIter: 10
-  maxIter: 20
+  maxIter: 25

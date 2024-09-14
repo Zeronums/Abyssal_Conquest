@@ -21,8 +21,8 @@ TagManager:
   - Enemy
   - Wall
   - Door
-  - 
-  - 
+  - Obstacle
+  - Minimap
   - 
   - 
   - 
@@ -55,4 +55,10 @@ TagManager:
     locked: 0
   - name: WallLayer
     uniqueID: 2204151125
+    locked: 0
+  - name: MinimapRoom
+    uniqueID: 4152098925
+    locked: 0
+  - name: MinimapPlayer
+    uniqueID: 3342357685
     locked: 0

@@ -111,6 +111,10 @@ MonoBehaviour:
   rb: {fileID: 8935334426154639877}
   notPresent: 0
   canAttack: 1
+  detectionDist: 5
+  Obstacle:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &-3386730830530807515
 MonoBehaviour:
   m_ObjectHideFlags: 0

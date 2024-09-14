@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7921428258669327231}
   - component: {fileID: 4581783917755128710}
   - component: {fileID: 4511472903424431636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CorrStone3
   m_TagString: Obstacle
   m_Icon: {fileID: 0}

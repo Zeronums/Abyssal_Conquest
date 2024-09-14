@@ -33,6 +33,8 @@ public class EnemyAI : MonoBehaviour
     public bool canAttack = true;
     private Room currentRoom;
     private EnemyStats enemyStats;
+    //public float detectionDist;
+    //public LayerMask Obstacle;
 
     void Awake()
     {
@@ -78,8 +80,13 @@ public class EnemyAI : MonoBehaviour
         {
             currentState = State.Wander;
         }
+
+        
     }
 
+    
+
+    
    
     private IEnumerator WanderRoutine()
     {
